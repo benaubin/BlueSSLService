@@ -8,6 +8,8 @@
 
 # BlueSSLService
 
+Makes `pkcs12Certs` public for easy access.
+
 ## Overview
 SSL/TLS Add-in framework for [BlueSocket](https://github.com/IBM-Swift/BlueSocket.git) in Swift using the Swift Package Manager. Works on supported Apple platforms (using Secure Transport) and on Linux (using OpenSSL).
 
