@@ -157,7 +157,7 @@ public class SSLService: SSLServiceDelegate {
 			public var useDefaultCiphers: Bool = true
 
 			/// Cached array of previously imported PKCS12.
-			fileprivate var pkcs12Certs: CFArray? = nil
+			public var pkcs12Certs: CFArray? = nil
 		#endif
 		
 		/// Password (if needed) typically used for PKCS12 files.
